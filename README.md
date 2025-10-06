@@ -16,7 +16,7 @@ Face à un problème de reconnaissance faciale "in the wild" (dans des condition
 Notre solution est structurée en trois phases claires, orchestrées dans un notebook Kaggle unique :
 
 ### 1. Préparation du Dataset
-Conscients que les données initialement fournies pouvaient contenir des erreurs, nous avons utilisé le dataset de référence **CACD-VS** comme notre "Gold Standard". Pour simuler fidèlement les conditions du challenge, nous avons :
+Conscients que les données initialement fournies pouvaient contenir des erreurs, nous avons utilisé le dataset de référence **CACD-VS** comme notre. Pour simuler fidèlement les conditions du challenge, nous avons :
 -   **Partitionné** le dataset de 4000 paires en un set d'entraînement (3000 paires) et un set de test interne (1000 paires).
 -   **Anonymisé** notre set de test interne pour valider notre algorithme de matching dans des conditions réelles.
 
